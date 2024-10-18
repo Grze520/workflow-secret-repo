@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   shows-secret-phrase:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps: 
       - uses: action/checkout@v3
         with:
